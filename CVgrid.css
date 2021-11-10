@@ -7,6 +7,7 @@ body {
     --sun: #c1c423;
     --darkpink: #d60d38;
     --oceangreen: #0ddb97;
+    --tchelet: #0db8d6;
 }
 
 #GridContainer {
@@ -27,7 +28,7 @@ div {
     width: 1050px;
     padding: 20px;
     margin: 20px;
-    background-color: white; 
+    background-color: var(--tchelet); 
     
 }
 
@@ -46,7 +47,7 @@ height: 100px;
 width: 300px;
 padding: 20px;
 margin: 20px;
-background-color: white;
+background-color: beige;
 }
 #item4 {
     grid-area: right;
@@ -54,7 +55,7 @@ background-color: white;
     width: 300px;
     padding: 20px;
     margin: 20px;
-    background-color: white;
+    background-color: var(--sun);
     }
     #item5 {
         grid-area: footer;
@@ -62,7 +63,7 @@ background-color: white;
         width: 300px;
         padding: 20px;
         margin: 20px;
-        background-color: white;
+        background-color: var(--darkpink);
         } 
         @media only screen and (max-width: 600px)
 {
@@ -70,3 +71,4 @@ background-color: white;
        background-color: var(--oceangreen);
    } 
 
+}
