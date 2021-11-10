@@ -1,0 +1,54 @@
+body{
+    background-color: var(--makeUp);
+    font-family: sans-serif;
+    color: rgb(150, 50, 50);
+}
+:root {
+    --darklBlue: #242582;
+    --eggplant: #553D67;
+    --pink: #f64c72;
+    --makeUp: #99738e;
+}
+
+label {
+    color: rgb(50, 50, 150);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+}
+textarea {
+    padding: 10px;
+    margin: 10px;
+}
+#signUp {
+     font-family: sans-serif;
+     padding: 10px; 
+     margin: 10px; 
+}
+.Buxa{
+    background-color: burlywood;
+    border: 2px solid burlywood;
+}
+input.Buxa {
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 600px)
+{
+   body {
+       background-color: var(--darklBlue);
+   } 
+}
+a {
+    color: green;
+}
+a:visited {
+    color: cornflowerblue;
+}
+a:link {
+    color: steelblue
+}
