@@ -1,0 +1,103 @@
+
+div {
+    height: 35vh;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    height: 90%;
+    font-size: 50px;
+    background-color: rgb(228, 185, 128);
+    animation-name: blink ;
+    animation-duration: 23s;
+    animation-iteration-count: 5;
+}
+img {
+    width: 30%;
+    height: 500px;
+}
+body {
+    background-color: rgb(5, 253, 220);
+    color: black;
+}
+:root {
+    --blues: #4729ee82;
+    --sun: #c1c423;
+    --eggplant: #9d10aa;
+    --oceangreen: #0ddb97;
+    --tchelet: #0db8d6;
+    --likeBeige: #cecc7e;
+}
+
+#GridContainer {
+display: grid;
+grid-template-areas:
+'header header header header header header'
+'menu main main main right right'
+'menu footer footer footer footer footer';
+}
+
+div {
+    border: 2px solid black;
+}
+
+#item1 {
+    grid-area: header;
+    height: 80px;
+    width: 900px;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--likeBeige); 
+    
+}
+
+#item2 {
+grid-area: menu;
+height: 80px;
+width: 10px;
+padding: 20px;
+margin: 20px;
+background-color: var(--likeBeige) ;
+}
+
+#item3 {
+grid-area: main;
+height: 80px;
+width: 150px;
+padding: 20px;
+margin: 20px;
+background-color: var(--oceangreen);
+}
+#item4 {
+    grid-area: right;
+    height: 80px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--blues);
+    }
+    #item5 {
+        grid-area: footer;
+        height: 80px;
+        width: 300px;
+        padding: 20px;
+        margin: 20px;
+        background-color: var(--blues);
+        } 
+        @media only screen and (max-width: 600px)
+{
+   body {
+       background-color: var(--eggplant);
+   } 
+
+}
+
+@keyframes blink {
+    0% {background-color:rgb(233, 201, 19); border-radius: 0%;}
+    25% {background-color:var(--oceangreen); border-radius: 50%;}
+    50% {background-color: var(--blues);border-radius: 75%;}
+    75% {background-color: rgb(149, 167, 177);border-radius: 100%;}
+   100% {background-color: rgb(233, 201, 19);border-radius: 50%;}
+}
