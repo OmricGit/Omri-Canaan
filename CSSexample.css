@@ -1,0 +1,33 @@
+*{
+    font-size:40px;
+}
+
+
+body {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+h1 {
+    color: blue;
+}
+
+#p1 {
+    color: darkgoldenrod;
+}
+
+.header {
+    color: greenyellow;
+}
+
+#H11 {
+    color: indianred;
+}
+
+#Registration{
+    color: lavender;
+}
+
+.Middle{
+    text-align: Middle;
+}

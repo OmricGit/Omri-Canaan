@@ -1,0 +1,60 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          Omri Canaan CV
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+        <link rel="stylesheet" href="cv.css">
+        <script async src="cv.js"></script>
+ 
+    </head>
+
+    <body onload="ChangeHeaderOnLoad()">    
+
+<h1 id="Title">Omri Canaan</h1>
+<div class="grid-container">
+  <div class="header">
+    About Me<br>
+    <img src="OmriPic.jpeg" alt="About logo">
+  </div>
+  
+  <div class="Education">Education<Br><Br>
+    Explain my education <br></br>
+  <!-- <img src="BGU.png" alt="Education logo"> Enter Education picture -->
+</div>
+
+  <div class="Army"> Military Service<br><br>
+    information about my military service </div>  
+
+  <div class="Employment">Employment<br><Br>
+    My Work Experience </div>
+
+  <div class="Skills">Skills<br><Br>
+    List of my skills </div>
+
+  <div class="Languages">Languages<br><Br>
+  Hebrew, English e un poco espanol </div>
+  
+  <div class="Volunteering"> Volunteering  <br><br>
+    my volunteering/ counseling details </div>
+  
+  <div class="Contact">
+    <p class="line anim-typewriter"> Contact Me </p>
+    
+  <div class="contact-form">
+    <form id="contact-form" method="post" action="">
+      <input name="name" type="text" class="form-style" placeholder="Enter Your Name" required><br>
+      <input name="Email" type="email" class="form-style" placeholder="Enter Your Email" required><br>
+      <textarea name="Message" class="form-style" placeholder="Enter Your Message" rows="4" required></textarea><br>
+      <input type="submit" class="form-style submit" onclick="Namevalidation()" value="SEND">
+
+    </form>
+  </div>
+  </div>
+</div>
+<div>
+    <button id= "Button" onclick= "thankyou()"> All Rights Reserved - Omri Canaan</button> 
+</div>
+    </body>
+</html>
